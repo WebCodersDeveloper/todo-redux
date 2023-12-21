@@ -13,7 +13,7 @@ export default function Header() {
         <Link to="/lorem">Lorem</Link>
         <Link to="/todos">Todos</Link>
       </nav>
-      <button onClick={toggleTheme}>Toggle Theme</button>
+      <button onClick={toggleTheme}>Change Theme</button>
     </header>
   );
 }
