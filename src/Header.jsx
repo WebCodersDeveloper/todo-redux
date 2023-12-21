@@ -1,3 +1,5 @@
+// import React from 'react';
+import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { ThemeContext } from './App';
 
@@ -6,7 +8,12 @@ export default function Header() {
 
   return (
     <header className={`nav ${theme}`}>
-      <button onClick={toggleTheme}>Change Theme</button>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/lorem">Lorem</Link>
+        <Link to="/todos">Todos</Link>
+      </nav>
+      <button onClick={toggleTheme}>Toggle Theme</button>
     </header>
   );
 }

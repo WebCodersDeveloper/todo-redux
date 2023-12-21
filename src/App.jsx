@@ -2,6 +2,9 @@ import { useState, createContext } from 'react';
 import './App.css';
 import Todos from './Todos';
 import Header from "./Header";
+import Home from './Home';
+import Lorem from './Lorem';
+import { Route, Routes } from 'react-router-dom';
 
 export const ThemeContext = createContext({
   theme: 'light',
@@ -16,12 +19,15 @@ export default function App() {
   };
 
   return (
-    <ThemeContext.Provider value={{
-      theme,
-      toggleTheme
-    }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme}}>
       <Header />
-      <Todos />
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/lorem' element={<Lorem />}/>
+        <Route path='/todos' element={<Todos />}/>
+        {/* <Lorem />
+        <Todos /> */}
+      </Routes>
     </ThemeContext.Provider>
   );
 }

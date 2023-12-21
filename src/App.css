@@ -12,8 +12,15 @@
 .light_txt{
   color: #333;
 }
+.light_main{
+  color: #333;
+}
 .dark_txt{
   color: #fff;
+}
+.dark_main{
+  color: #fff;
+  background: #000000c6;
 }
 .main{
   max-width: 1920px;
@@ -27,11 +34,15 @@
 }
 .nav{
   max-width: 1920px;
-  /* border: 1px solid red; */
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-around;
+  box-shadow: 0 3px 8px 1px black;
+}
+.nav nav{
+  display: flex;
+  gap: 70px;
 }
 .center{
   
