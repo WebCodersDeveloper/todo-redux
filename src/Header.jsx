@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <header className={`nav ${theme}`}>
-      <button onClick={toggleTheme}>Toggle Theme</button>
+      <button onClick={toggleTheme}>Change Theme</button>
     </header>
   );
 }
