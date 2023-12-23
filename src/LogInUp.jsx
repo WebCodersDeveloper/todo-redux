@@ -33,9 +33,9 @@ export default function LogInUp() {
                         <h1>Login to your account</h1>
                         <form onSubmit={handleSubmit}>
                             <label htmlFor="UserNAme">Username</label>
-                            <input className="inp" type="text"  value={name} onChange={(e) => setName(e.target.value)}/>
+                            <input className="inp" type="text" placeholder="Name..."  value={name} onChange={(e) => setName(e.target.value)}/>
                             <label htmlFor="Email">Email</label>
-                            <input className="inp" type="text" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                            <input className="inp" type="text" placeholder="Email..." value={email} onChange={(e) => setEmail(e.target.value)}/>
                             <div className="rmf">
                                 <span>
                                     <input type="checkbox" />
