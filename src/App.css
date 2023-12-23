@@ -39,6 +39,13 @@
   align-items: center;
   justify-content: space-around;
   box-shadow: 0 3px 8px 1px black;
+  margin:  0 auto;
+}
+.light .nic{
+  color: #000;
+}
+.dark .nic{
+  color: #fff;
 }
 .nav nav{
   display: flex;
@@ -113,4 +120,133 @@
 }
 .btn__red:hover{
   background: red;
+}
+
+.sign_main{
+  max-width: 1920px;
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sign_main_center{
+  /* border: 1px solid red; */
+  border-radius: 12px;
+  overflow: hidden;
+  width: 70%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0px 0px 8px 0px black;
+}
+.dark_bg{
+  background: url(../public/image\ 1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.light_bg{
+  background: url(../public/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right__main{
+  /* border: 1px solid red; */
+  width: 75%;
+  height: 75%;
+  padding: 25px 5px;
+  display: flex;
+  flex-direction: column;
+}
+.right__main h1{
+  font-size: 36px;
+}
+.dark .right__main h1{
+  color: #fff;
+}
+.light .right__main h1{
+  color: #000;
+}
+.right__main h3{
+  font-size: 22px;
+  font-weight: 500;
+}
+.dark .right__main h3{
+  color: #fff;
+}
+.light .right__main h3{
+  color: #000;
+}
+.right__main form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 25px 0 0 0;
+  /* border: 1px solid; */
+  width: 100%;
+  height: 75%;
+}
+.right__main .inp{
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #E8E8E8;
+  width: 90%;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+.right__main form label{
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 5px 0;
+}
+.dark .right__main form{
+  color: #fff;
+}
+.light .right__main form{
+  color: #000;
+}
+.rmf{
+  display: flex;
+  /* border: 1px solid #000; */
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.rmf span{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  width: 50%;
+  padding: 0 10px;
+}
+.btn_log{
+  border-radius: 5px;
+  background: #04C35C;
+  color: #fff;
+}
+.btn_gg{
+  border-radius: 5px;
+  background: #2D3748;
+  color: #fff;
+}
+.dark .free{
+  color: #fff;
+}
+.light .free{
+  color: #000;
+}
+.btn{
+  display: flex;
+  gap: 35px;
 }
