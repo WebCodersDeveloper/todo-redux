@@ -20,6 +20,7 @@ export default function Header() {
         <Link to="/">Home</Link>
         <Link to="/lorem">Lorem</Link>
         <Link to="/todos">Todos</Link>
+        <Link to="/subscribe">Subscribe Netflix</Link>
         <Link to="/login">LogIn</Link>
       </nav>
       <div className="btn">

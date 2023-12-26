@@ -250,3 +250,153 @@
   display: flex;
   gap: 35px;
 }
+
+.subc_log{
+  /* border: 1px solid; */
+  max-width: 1920px;
+  height: 90vh;
+  margin: 0 auto;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.light__log{
+  color: #000;
+  background: #fff;
+}
+.dark__log{
+  color: #fff;
+  background: #000000c6;
+}
+.dark__lg{
+  color: #fff;
+  background: #00000000;
+}
+.next{
+  width: 90%;
+}
+.log_center{
+  width: 90%;
+  height: 90%;
+  box-shadow: 0 0 10px 0 #000000c6;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.log_center form{
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.log_center form input{
+  font-size: 18px;
+  font-weight: 400;
+  height: 45px;
+  padding: 5px 10px 5px 20px;
+  outline: none;
+  border-radius: 8px;
+}
+.log_center form button{
+  width: 10%;
+}
+.dark__lg input{
+  color: #333;
+  /* background: #00000000; */
+}
+.light__lg input{
+  color: #333;
+  background: #f9f9f9;
+}
+.dark__lg button{
+  color: #333;
+}
+.log_center span{
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  /* width: %; */
+  /* justify-content: space-around; */
+  gap: 15px;
+} 
+.gender{
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+.selection{
+  width: 90%;
+  height: 30%;
+  box-shadow: 0 0 10px 0 #000000c6;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.option{
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+}
+.option button{
+  width: 10%;
+  /* height: 35px; */
+}
+.option select{
+  height: 45px;
+  border-radius: 8px;
+  padding: 0px 50px 0px 15px;
+  color: #333;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.option input{
+  height: 45px;
+  border-radius: 8px;
+  padding: 5px 10px 5px 15px;
+  color: #333;
+  outline: none;
+}
+.dark_opt button{
+  color: #333;
+}
+.light_opt select{
+  background: #f9f9f9;
+}
+.light_opt input{
+  background: #f9f9f9;
+}
+.step5{
+  width: 90%;
+  height: 50%;
+  box-shadow: 0 0 10px 0 #000000c6;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.step5 span{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.final{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
