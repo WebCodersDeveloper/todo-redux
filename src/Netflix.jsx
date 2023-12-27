@@ -1,4 +1,4 @@
-import  { useContext } from 'react'
+import  { useContext, useEffect } from 'react'
 import Step1 from './component/subscribeStepByStep/Step1';
 import { ThemeContext } from './App';
 import Step2 from './component/subscribeStepByStep/Step2';
@@ -6,6 +6,7 @@ import Step3 from './component/subscribeStepByStep/Step3';
 import Step4 from './component/subscribeStepByStep/Step4';
 import Step5 from './component/subscribeStepByStep/Step5';
 import Final from './component/subscribeStepByStep/Final';
+import { getStorage } from './component/localStarge/localStorage';
 
 export default function Netflix() {
   
@@ -13,6 +14,10 @@ export default function Netflix() {
   // export const SetStep = setStep;
   
   const {theme, step} = useContext(ThemeContext)
+  useEffect(() => {
+    const storageData = getStorage();
+    console.log(storageData);
+  }, []);
   
 //  const set = {...ThemeContext}
 //  console.log(step);
